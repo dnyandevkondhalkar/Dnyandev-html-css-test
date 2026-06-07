@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+
 <style>
 
     *{
@@ -42,6 +45,10 @@
         margin-top: 19px;
         font-size: 20px;
         font-weight: bolder;
+    }
+
+    .navcntmenu{
+        display: none;
     }
 
     .midsec{
@@ -143,6 +150,184 @@
 
     }
 
+    .footer{
+        /* border: 2px solid red; */
+        height: 400px;
+        width: 100%;
+        background-color: #0F201E;
+    }
+    .footersec1{
+        /* border: 2px solid blue; */
+        height: 310px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .footersec1content{
+        /* border: 2px solid peru; */
+        height: 230px;
+        width: 88%;
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footersec1content1{
+        /* border: 2px solid green; */
+        width: 22%;
+        height: 100%;
+        
+
+    }
+    .footersec1content1 p{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .footersec1content2{
+        /* border: 2px solid green; */
+        width: 20%;
+        height: 100%;
+
+    }
+    .footersec1content2 P{
+        color: #67817f;
+        margin-left: 60px;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 30px;
+
+    }
+
+    .footersec1content3{
+        /* border: 2px solid green; */
+        width: 20%;
+        height: 100%;
+
+    }
+
+    .footersec1content3{
+        color: #67817f;
+        margin-left: 60px;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 30px;
+
+    }
+
+    .footersec1content4{
+        /* border: 2px solid green; */
+        width: 20%;
+        height: 100%;
+
+    }
+    .footersec1content4{
+        color: #67817f;
+        margin-left: 60px;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 30px;
+
+
+    }
+
+    .footersec2{
+        /* border: 2px solid yellow; */
+        height: 84px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .footersec2info{
+        /* border: 2px solid red; */
+        height: 100%;
+        width: 88%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footersec2info{
+        color: #67817f;
+        font-size: 14px;
+    
+    }
+
+    .footersec2info2{
+        display: flex;
+        /* border: 2px solid yellow; */
+        width: 320px;
+        justify-content: space-between;
+        
+    }
+
+    
+
+    @media( max-width : 450px ){
+
+        .logo{
+            margin-left: 40px;
+        }
+        .midsec{
+            display: none;
+        }
+
+        .signin{
+            display: none;
+        }
+
+        .navcntmenu{
+            /* border: 2px solid red; */
+            margin-top: 15px;
+            margin-left: 250px;
+            display: block;
+        }
+
+        .footer{
+            height: 1100px;
+        }
+
+        .footersec1{
+            height: 90%;
+        
+        }
+
+        .footersec2{
+            height: 10%;
+        }
+
+        .footersec1content{
+            display: inline;
+        
+        }
+        .footersec1content1{
+            width: 200px;
+        }
+        .footersec1content2{
+            margin-left: -60px;
+            
+        }
+        .footersec1content3{
+            margin-left: 5px;
+
+        }
+        .footersec1content4{
+            margin-left: 5px;
+            
+
+        }
+
+        .footersec2info{
+            display: inline;
+            /* margin-top: 10px; */
+        }
+
+        .footersec2info p{
+            margin-top: 20px;
+        }
+
+    }
+
 </style>
 
 
@@ -151,6 +336,14 @@
     <div class="navcnt">
         <div class="logo">
             <p>clear<span style="color: #1F7D71;">wave</span></p>
+
+            
+        </div>
+        <div class="navcntmenu">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+
         </div>
 
         <div class="midsec">
@@ -215,6 +408,60 @@
 
     <div></div>
     </div>
+    <footer class="footer">
+
+        <div class="footersec1">
+
+            <div class="footersec1content">
+                <div class="footersec1content1">
+                    <p>clear<span style="color: #4BB3B1;">wave</span></p>
+
+                    <p style="font-size: 14px; margin-top: 20px; color: #67817f; font-weight: lighter; line-height: 20px;">
+                        The calm, powerful workspace for teams that want to focus on work — not on managing it.
+                    </p>
+
+                </div>
+                <div class="footersec1content2">
+                    <p>PRODUCT</p>
+                    <p>Features</p>
+                    <p>Mobile App</p>
+                    <p>Pricing</p>
+                    <p>Integrration</p>
+                    <p>Changelog</p>
+                </div>
+                <div class="footersec1content3">
+                    <p>COMPANY</p>
+                    <p>About</p>
+                    <p>Blog</p>
+                    <p>Careers</p>
+                    <p>Press Kit</p>
+                    <p>Status</p>
+                </div>
+                <div class="footersec1content4">
+                    <p>SUPPORT</p>
+                    <p>Help Cebter</p>
+                    <p>Documentation </p>
+                    <p>Security</p>
+                    <p>Contact</p>
+                    <p>Community</p>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="footersec2">
+            <div class="footersec2info">
+                <p>© 2026 Clearwave. Design by TemplateMo</p>
+                <div class="footersec2info2">
+                <p>Privacy Policy</p>
+                <p>Terms of Service</p>
+                <p>Cookie Policy</p>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
 
 
     
